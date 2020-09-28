@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DEC7F196-CB5B-42F5-BEA2-AD70C5F5BCB4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>Sistema GJE</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Sistema GJE.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Sistema GJE.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Sistema GJE.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Sistema GJE.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.8.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.8.8\lib\net40\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmDevolucionesCompras.Designer.vb">
+      <DependentUpon>FrmDevolucionesCompras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDevolucionesCompras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDevolucionesVentas.Designer.vb">
+      <DependentUpon>FrmDevolucionesVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDevolucionesVentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPedidosVenta.Designer.vb">
+      <DependentUpon>FrmPedidosVenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPedidosVenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNotaCreditoInterna.Designer.vb">
+      <DependentUpon>FrmNotaCreditoInterna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNotaCreditoInterna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNotaDebitoInterna.Designer.vb">
+      <DependentUpon>FrmNotaDebitoInterna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNotaDebitoInterna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCtaCteClientes.Designer.vb">
+      <DependentUpon>FrmCtaCteClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCtaCteClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCobro.Designer.vb">
+      <DependentUpon>FrmCobro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCobro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAceptacionPago.Designer.vb">
+      <DependentUpon>FrmAceptacionPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAceptacionPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFacturasVentas.Designer.vb">
+      <DependentUpon>FrmFacturasVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFacturasVentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAceptaVenta.Designer.vb">
+      <DependentUpon>FrmAceptaVenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAceptaVenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCambiaClave.Designer.vb">
+      <DependentUpon>FrmCambiaClave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCambiaClave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFacturasImpagas.Designer.vb">
+      <DependentUpon>FrmFacturasImpagas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFacturasImpagas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCtaCteProv.Designer.vb">
+      <DependentUpon>FrmCtaCteProv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCtaCteProv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClientes.Designer.vb">
+      <DependentUpon>FrmClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNotaCreditoExterna.Designer.vb">
+      <DependentUpon>FrmNotaCreditoExterna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNotaCreditoExterna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNotaDebitoExterna.Designer.vb">
+      <DependentUpon>FrmNotaDebitoExterna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNotaDebitoExterna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFacturasCompras.Designer.vb">
+      <DependentUpon>FrmFacturasCompras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFacturasCompras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBancos.Designer.vb">
+      <DependentUpon>FrmBancos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBancos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrdenPago.Designer.vb">
+      <DependentUpon>FrmOrdenPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrdenPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPedidoCotizacion.Designer.vb">
+      <DependentUpon>FrmPedidoCotizacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPedidoCotizacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrdenCompra.Designer.vb">
+      <DependentUpon>FrmOrdenCompra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrdenCompra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPedidosReap.Designer.vb">
+      <DependentUpon>FrmPedidosReap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPedidosReap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmArticulos.Designer.vb">
+      <DependentUpon>FrmArticulos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmArticulos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProveedores.Designer.vb">
+      <DependentUpon>FrmProveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsuarios.Designer.vb">
+      <DependentUpon>FrmUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGrupos.Designer.vb">
+      <DependentUpon>FrmGrupos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGrupos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBase.Designer.vb">
+      <DependentUpon>frmBase.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm1.Designer.vb">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModBase.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmDevolucionesCompras.resx">
+      <DependentUpon>FrmDevolucionesCompras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDevolucionesVentas.resx">
+      <DependentUpon>FrmDevolucionesVentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPedidosVenta.resx">
+      <DependentUpon>FrmPedidosVenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNotaCreditoInterna.resx">
+      <DependentUpon>FrmNotaCreditoInterna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNotaDebitoInterna.resx">
+      <DependentUpon>FrmNotaDebitoInterna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCtaCteClientes.resx">
+      <DependentUpon>FrmCtaCteClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCobro.resx">
+      <DependentUpon>FrmCobro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAceptacionPago.resx">
+      <DependentUpon>FrmAceptacionPago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFacturasVentas.resx">
+      <DependentUpon>FrmFacturasVentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAceptaVenta.resx">
+      <DependentUpon>FrmAceptaVenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCambiaClave.resx">
+      <DependentUpon>FrmCambiaClave.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFacturasImpagas.resx">
+      <DependentUpon>FrmFacturasImpagas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCtaCteProv.resx">
+      <DependentUpon>FrmCtaCteProv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBancos.resx">
+      <DependentUpon>FrmBancos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmClientes.resx">
+      <DependentUpon>FrmClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFacturasCompras.resx">
+      <DependentUpon>FrmFacturasCompras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNotaCreditoExterna.resx">
+      <DependentUpon>FrmNotaCreditoExterna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNotaDebitoExterna.resx">
+      <DependentUpon>FrmNotaDebitoExterna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrdenCompra.resx">
+      <DependentUpon>FrmOrdenCompra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrdenPago.resx">
+      <DependentUpon>FrmOrdenPago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPedidoCotizacion.resx">
+      <DependentUpon>FrmPedidoCotizacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPedidosReap.resx">
+      <DependentUpon>FrmPedidosReap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmArticulos.resx">
+      <DependentUpon>FrmArticulos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProveedores.resx">
+      <DependentUpon>FrmProveedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsuarios.resx">
+      <DependentUpon>FrmUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGrupos.resx">
+      <DependentUpon>FrmGrupos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBase.resx">
+      <DependentUpon>frmBase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm1.resx">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{B691E011-1797-432E-907A-4D8C69339129}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\salir.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

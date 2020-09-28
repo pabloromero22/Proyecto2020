@@ -1,0 +1,224 @@
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.exe
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.xml
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.pdb
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\bin\Debug\B.D GJE.mdb
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\bin\Debug\Sistema GJE.exe.config
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\bin\Debug\Sistema GJE.exe
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\bin\Debug\Sistema GJE.pdb
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\bin\Debug\Sistema GJE.xml
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.vbproj.ResolveComReference.cache
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmBase.resources
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmLogin.resources
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.vbproj.ResolveComReference.cache
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.exe
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.xml
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.pdb
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmBase.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmLogin.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\bin\Debug\Sistema GJE.exe
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\bin\Debug\Sistema GJE.pdb
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\bin\Debug\Sistema GJE.xml
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmArticulos.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\Sistema GJE.vbproj.ResolveComReference.cache
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\Sistema GJE.exe
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\Sistema GJE.xml
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\Sistema GJE.pdb
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\bin\Debug\Sistema GJE.exe
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\bin\Debug\Sistema GJE.pdb
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\bin\Debug\Sistema GJE.xml
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmArticulos.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmBase.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmLogin.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\WindowsApplication1.LoginForm1.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.LoginForm1.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmUsuarios.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmGrupos.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmPedidosReap.resources
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.vbproj.ResolveComReference.cache
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.exe
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.xml
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.pdb
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\bin\Debug\Sistema GJE.exe
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\bin\Debug\Sistema GJE.pdb
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\bin\Debug\Sistema GJE.xml
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmPedidosReap.resources
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmArticulos.resources
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmUsuarios.resources
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmGrupos.resources
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmBase.resources
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmLogin.resources
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.LoginForm1.resources
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmOrdenCompra.resources
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmOrdenPago.resources
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmPedidoCotizacion.resources
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmBancos.resources
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmProveedores.resources
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\GenerateResource.read.1 (Copia conflictiva de Esteban c 2012-10-18).tlog
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\GenerateResource.write.1 (Copia conflictiva de Esteban c 2012-10-18).tlog
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmFacturasCompras.resources
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaCreditoExterna.resources
+C:\Users\Esteban\Dropbox\Sistema GJE\Fuente del sistema\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaDebitoExterna.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmBancos.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmFacturasCompras.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaCreditoExterna.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaDebitoExterna.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmOrdenCompra.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmOrdenPago.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmPedidoCotizacion.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmProveedores.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\GenerateResource.read.1 (Copia conflictiva de Esteban c 2012-10-18).tlog
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\GenerateResource.write.1 (Copia conflictiva de Esteban c 2012-10-18).tlog
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmcLIENTES.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmCtaCteProv.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmCtaCteClientes.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmCambiaclave.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmAceptaVenta.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmFacturasVentas.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmAceptacionPago.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmCobro.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmFacturasImpagas.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaCreditoInterna.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaDebitoInterna.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmDevolucionesVentas.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmDevolucionesCompras.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmPedidosVenta.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\Sistema GJE.vbproj.ResolveComReference.cache
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\Sistema GJE.exe
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\Sistema GJE.xml
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\Sistema GJE.pdb
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\bin\Debug\Sistema GJE.exe
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\bin\Debug\Sistema GJE.pdb
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\bin\Debug\Sistema GJE.xml
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmDevolucionesCompras.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmDevolucionesVentas.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmPedidosVenta.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaCreditoInterna.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaDebitoInterna.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmCtaCteClientes.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmCobro.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmAceptacionPago.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmFacturasVentas.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmAceptaVenta.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmCambiaclave.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmFacturasImpagas.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmCtaCteProv.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmBancos.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmClientes.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmFacturasCompras.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaCreditoExterna.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaDebitoExterna.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmOrdenCompra.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmOrdenPago.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmPedidoCotizacion.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmPedidosReap.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmArticulos.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmProveedores.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmUsuarios.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmGrupos.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmBase.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmLogin.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.LoginForm1.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\GenerateResource.read.1 (Copia conflictiva de Esteban c 2012-10-18).tlog
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\GenerateResource.write.1 (Copia conflictiva de Esteban c 2012-10-18).tlog
+C:\Users\Gustavo\Desktop\Sistema GJE3\Sistema GJE\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\Interop.ADODB.dll
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\Sistema GJE.vbproj.ResolveComReference.cache
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\Sistema GJE.xml
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\Sistema GJE.pdb
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmDevolucionesCompras.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmDevolucionesVentas.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmPedidosVenta.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaCreditoInterna.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaDebitoInterna.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmCtaCteClientes.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmCobro.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmAceptacionPago.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmFacturasVentas.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmAceptaVenta.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmCambiaclave.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmFacturasImpagas.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmCtaCteProv.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmBancos.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmClientes.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmFacturasCompras.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaCreditoExterna.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaDebitoExterna.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmOrdenCompra.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmOrdenPago.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmPedidoCotizacion.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmPedidosReap.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmArticulos.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmProveedores.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmUsuarios.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmGrupos.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmBase.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmLogin.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.LoginForm1.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.Resources.resources
+F:\GJE-19_12\Sistema GJE3\Sistema GJE\obj\x86\Debug\Sistema GJE.vbproj.GenerateResource.Cache
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\bin\Debug\Sistema GJE.exe.config
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\bin\Debug\Sistema GJE.exe
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\bin\Debug\Sistema GJE.pdb
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\bin\Debug\Sistema GJE.xml
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\bin\Debug\MySql.Data.dll
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\Sistema GJE.vbprojResolveAssemblyReference.cache
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\Sistema GJE.vbproj.ResolveComReference.cache
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmDevolucionesCompras.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmDevolucionesVentas.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmPedidosVenta.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaCreditoInterna.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaDebitoInterna.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmCtaCteClientes.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmCobro.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmAceptacionPago.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmFacturasVentas.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmAceptaVenta.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmCambiaclave.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmFacturasImpagas.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmCtaCteProv.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmBancos.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmClientes.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmFacturasCompras.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaCreditoExterna.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmNotaDebitoExterna.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmOrdenCompra.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmOrdenPago.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmPedidoCotizacion.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmPedidosReap.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmArticulos.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmProveedores.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmUsuarios.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmGrupos.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmBase.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmLogin.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.LoginForm1.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\Sistema GJE.vbproj.GenerateResource.Cache
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\Sistema GJE.exe
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\Sistema GJE.xml
+C:\Users\jose\Downloads\Luciano\Sistema GJE3\Sistema GJE\obj\x86\Debug\Sistema GJE.pdb

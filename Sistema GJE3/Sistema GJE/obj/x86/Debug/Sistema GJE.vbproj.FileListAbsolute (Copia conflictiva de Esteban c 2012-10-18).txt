@@ -1,0 +1,51 @@
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.exe
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.xml
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.pdb
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\bin\Debug\B.D GJE.mdb
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\bin\Debug\Sistema GJE.exe.config
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\bin\Debug\Sistema GJE.exe
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\bin\Debug\Sistema GJE.pdb
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\bin\Debug\Sistema GJE.xml
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.vbproj.ResolveComReference.cache
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmBase.resources
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmLogin.resources
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Esteban\documents\visual studio 2010\Projects\Sistema GJE\Sistema GJE\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.vbproj.ResolveComReference.cache
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.exe
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.xml
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\Sistema GJE.pdb
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmBase.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmLogin.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\bin\Debug\Sistema GJE.exe
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\bin\Debug\Sistema GJE.pdb
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\bin\Debug\Sistema GJE.xml
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmArticulos.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\Sistema GJE.vbproj.ResolveComReference.cache
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\Sistema GJE.exe
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\Sistema GJE.xml
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\Sistema GJE.pdb
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\bin\Debug\Sistema GJE.exe
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\bin\Debug\Sistema GJE.pdb
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\bin\Debug\Sistema GJE.xml
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmArticulos.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmBase.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\WindowsApplication1.frmLogin.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE1\Sistema GJE\obj\x86\Debug\WindowsApplication1.LoginForm1.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.LoginForm1.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmUsuarios.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmGrupos.resources
+C:\Users\Esteban\Desktop\Instituto\Sistema GJE\Sistema GJE\obj\x86\Debug\WindowsApplication1.FrmPedidosReap.resources

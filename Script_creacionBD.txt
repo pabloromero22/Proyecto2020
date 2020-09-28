@@ -1,0 +1,1036 @@
+﻿CREATE DATABASE  IF NOT EXISTS `gje` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `gje`;
+-- MySQL dump 10.13  Distrib 5.5.16, for Win32 (x86)
+--
+-- Host: localhost    Database: gje
+-- ------------------------------------------------------
+-- Server version	5.5.27
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `ctacteproveedor`
+--
+
+DROP TABLE IF EXISTS `ctacteproveedor`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ctacteproveedor` (
+  `id_documento` int(10) DEFAULT NULL,
+  `id_tipo` int(10) DEFAULT NULL,
+  `id_proveedor` int(10) DEFAULT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `id_movimiento` int(10) NOT NULL,
+  `monto` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_movimiento`),
+  KEY `id_documento` (`id_documento`),
+  KEY `id_movimiento` (`id_movimiento`),
+  KEY `id_proveedor` (`id_proveedor`),
+  KEY `id_tipo` (`id_tipo`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `ctacteproveedor`
+--
+
+LOCK TABLES `ctacteproveedor` WRITE;
+/*!40000 ALTER TABLE `ctacteproveedor` DISABLE KEYS */;
+/*!40000 ALTER TABLE `ctacteproveedor` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tipodocumento`
+--
+
+DROP TABLE IF EXISTS `tipodocumento`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tipodocumento` (
+  `id_tipo` int(10) NOT NULL,
+  `descripcion` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id_tipo`),
+  KEY `Id_tipo` (`id_tipo`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tipodocumento`
+--
+
+LOCK TABLES `tipodocumento` WRITE;
+/*!40000 ALTER TABLE `tipodocumento` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tipodocumento` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `solicitudespedidosenca`
+--
+
+DROP TABLE IF EXISTS `solicitudespedidosenca`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `solicitudespedidosenca` (
+  `id_solicitud` int(10) NOT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `tipo` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id_solicitud`),
+  KEY `idArti` (`tipo`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `solicitudespedidosenca`
+--
+
+LOCK TABLES `solicitudespedidosenca` WRITE;
+/*!40000 ALTER TABLE `solicitudespedidosenca` DISABLE KEYS */;
+/*!40000 ALTER TABLE `solicitudespedidosenca` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `notacreditointerna`
+--
+
+DROP TABLE IF EXISTS `notacreditointerna`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `notacreditointerna` (
+  `id_notacredito` int(10) NOT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `monto` int(10) DEFAULT NULL,
+  `id_usuario` int(10) DEFAULT NULL,
+  `comentario` varchar(50) DEFAULT NULL,
+  `id_cliente` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_notacredito`),
+  KEY `id_notadebito` (`id_notacredito`),
+  KEY `id_proveedor` (`id_cliente`),
+  KEY `id_usuario` (`id_usuario`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `notacreditointerna`
+--
+
+LOCK TABLES `notacreditointerna` WRITE;
+/*!40000 ALTER TABLE `notacreditointerna` DISABLE KEYS */;
+/*!40000 ALTER TABLE `notacreditointerna` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `ordenpago`
+--
+
+DROP TABLE IF EXISTS `ordenpago`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ordenpago` (
+  `id_ordenpago` int(10) NOT NULL,
+  `fecha` varchar(50) DEFAULT NULL,
+  `id_proveedor` int(10) DEFAULT NULL,
+  `id_remito` int(10) DEFAULT NULL,
+  `id_factura` int(10) DEFAULT NULL,
+  `id_ordencompra` int(10) DEFAULT NULL,
+  `formadepago` varchar(50) DEFAULT NULL,
+  `importe` int(10) DEFAULT NULL,
+  `id_usuario` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_ordenpago`),
+  KEY `id_factura` (`id_factura`),
+  KEY `id_orden` (`id_ordenpago`),
+  KEY `id_orden1` (`id_ordencompra`),
+  KEY `id_proveedor` (`id_proveedor`),
+  KEY `id_remito` (`id_remito`),
+  KEY `OrdenPagoid_usuario` (`id_usuario`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `ordenpago`
+--
+
+LOCK TABLES `ordenpago` WRITE;
+/*!40000 ALTER TABLE `ordenpago` DISABLE KEYS */;
+/*!40000 ALTER TABLE `ordenpago` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `notapedidoitem`
+--
+
+DROP TABLE IF EXISTS `notapedidoitem`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `notapedidoitem` (
+  `id_pedido` int(10) NOT NULL,
+  `id_arti` int(10) NOT NULL,
+  `cantidad` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_pedido`,`id_arti`),
+  KEY `id_arti` (`id_arti`),
+  KEY `id_pedido` (`id_pedido`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `notapedidoitem`
+--
+
+LOCK TABLES `notapedidoitem` WRITE;
+/*!40000 ALTER TABLE `notapedidoitem` DISABLE KEYS */;
+INSERT INTO `notapedidoitem` VALUES (1,1,10),(2,1,10),(3,1,15),(4,1,15),(5,1,15),(6,1,15),(7,1,15),(8,1,15),(9,1,15),(10,1,15),(11,1,15),(12,1,15),(13,1,15),(14,1,15),(15,1,15),(16,1,15),(17,1,15),(18,1,15),(19,1,15),(20,1,15),(21,1,15),(22,1,15),(23,1,5),(24,1,5),(25,1,5),(27,1,3),(28,1,3),(30,1,4),(31,1,4),(32,1,3),(33,1,5),(34,1,4),(35,1,4),(36,1,4),(37,1,4),(38,1,4),(39,1,4),(40,1,3),(40,2,3),(41,2,3),(42,1,4),(43,1,4),(43,2,4),(44,1,3),(45,2,3),(46,1,3),(46,2,3),(47,1,2),(47,2,2),(48,1,7),(48,2,5),(51,1,10),(51,2,474),(55,2,1),(56,1,0),(58,1,0),(59,1,0),(62,1,1),(63,1,0),(64,1,50),(66,1,7),(67,1,0),(68,1,0),(69,1,3),(70,1,30),(71,1,5),(72,1,1),(73,1,0),(77,2,495),(78,2,492),(79,4,883),(80,3,561),(80,6,377),(81,4,873),(81,6,372),(82,2,476),(82,5,477);
+/*!40000 ALTER TABLE `notapedidoitem` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `informerecepcion`
+--
+
+DROP TABLE IF EXISTS `informerecepcion`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `informerecepcion` (
+  `jd_informe` int(10) NOT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `id_proveedor` int(10) DEFAULT NULL,
+  `control` int(10) DEFAULT NULL,
+  `id_remito` int(10) DEFAULT NULL,
+  `id_factura` int(10) DEFAULT NULL,
+  `id_orden` int(10) DEFAULT NULL,
+  `id_usuario` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`jd_informe`),
+  KEY `id_factura` (`id_factura`),
+  KEY `Id_informe` (`jd_informe`),
+  KEY `id_orden` (`id_orden`),
+  KEY `id_proveedor` (`id_proveedor`),
+  KEY `id_remito` (`id_remito`),
+  KEY `id_usuario` (`id_usuario`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `informerecepcion`
+--
+
+LOCK TABLES `informerecepcion` WRITE;
+/*!40000 ALTER TABLE `informerecepcion` DISABLE KEYS */;
+/*!40000 ALTER TABLE `informerecepcion` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `clientes`
+--
+
+DROP TABLE IF EXISTS `clientes`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `clientes` (
+  `id_cliente` int(10) NOT NULL,
+  `razonsocial` varchar(50) DEFAULT NULL,
+  `direccion` varchar(50) DEFAULT NULL,
+  `telefono` varchar(50) DEFAULT NULL,
+  `cuit` varchar(50) DEFAULT NULL,
+  `estado` varchar(255) DEFAULT NULL,
+  `iva` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_cliente`),
+  KEY `id_proveedor` (`id_cliente`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `clientes`
+--
+
+LOCK TABLES `clientes` WRITE;
+/*!40000 ALTER TABLE `clientes` DISABLE KEYS */;
+INSERT INTO `clientes` VALUES (1,'Gustavo','Serca 3','324-34234','36345334','HABILITADO',1),(2,'Juan','Lejos 34','4553-3424','234234','HABILITADO',1),(3,'Carlos','Por aca ','242-2342','324242342','HABILITADO',1),(4,'Estaban','Los tordos 300','879-78888','9876543266','HABILITADO',1),(5,'Pedros','Chaplinim 2555','244-242342','345678889','HABILITADO',1),(6,'Alejandro','Mosterey 344','344-987654','33976666','HABILITADO',1),(7,'Carlos','Los tordos 43534','879-78888','9876543266','HABILITADO',1),(8,'Rocha','Litoral 34','4553-3424','234234','HABILITADO',1),(9,'El pino','Calamar 433','234-23444','124342344','HABILITADO',1);
+/*!40000 ALTER TABLE `clientes` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `notadebitointerna`
+--
+
+DROP TABLE IF EXISTS `notadebitointerna`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `notadebitointerna` (
+  `id_notadebito` int(10) NOT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `monto` int(10) DEFAULT NULL,
+  `id_usuario` int(10) DEFAULT NULL,
+  `comentario` varchar(50) DEFAULT NULL,
+  `numeronotadebito` int(10) DEFAULT NULL,
+  `id_cliente` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_notadebito`),
+  KEY `id_notadebito` (`id_notadebito`),
+  KEY `id_proveedor` (`id_cliente`),
+  KEY `id_usuario` (`id_usuario`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `notadebitointerna`
+--
+
+LOCK TABLES `notadebitointerna` WRITE;
+/*!40000 ALTER TABLE `notadebitointerna` DISABLE KEYS */;
+/*!40000 ALTER TABLE `notadebitointerna` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `subdiariocompras`
+--
+
+DROP TABLE IF EXISTS `subdiariocompras`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `subdiariocompras` (
+  `Id_compra` int(10) NOT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `id_asiento` int(10) DEFAULT NULL,
+  `descripcion` varchar(50) DEFAULT NULL,
+  `iva` int(10) DEFAULT NULL,
+  `id_tipodoc` int(10) DEFAULT NULL,
+  `id_documento` int(10) DEFAULT NULL,
+  PRIMARY KEY (`Id_compra`),
+  KEY `id_asiento` (`id_asiento`),
+  KEY `Id_compra` (`Id_compra`),
+  KEY `id_docu` (`id_documento`),
+  KEY `id_tipodoc` (`id_tipodoc`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `subdiariocompras`
+--
+
+LOCK TABLES `subdiariocompras` WRITE;
+/*!40000 ALTER TABLE `subdiariocompras` DISABLE KEYS */;
+/*!40000 ALTER TABLE `subdiariocompras` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `recibooficialproveedor`
+--
+
+DROP TABLE IF EXISTS `recibooficialproveedor`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `recibooficialproveedor` (
+  `id_recibo` int(10) NOT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `id_proveedor` int(10) DEFAULT NULL,
+  `id_factura` int(10) DEFAULT NULL,
+  `importe` int(10) DEFAULT NULL,
+  `numerorecibo` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_recibo`),
+  KEY `id_factura` (`id_factura`),
+  KEY `id_proveedor` (`id_proveedor`),
+  KEY `id_recibo` (`id_recibo`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `recibooficialproveedor`
+--
+
+LOCK TABLES `recibooficialproveedor` WRITE;
+/*!40000 ALTER TABLE `recibooficialproveedor` DISABLE KEYS */;
+/*!40000 ALTER TABLE `recibooficialproveedor` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `pedidocotizacionenca`
+--
+
+DROP TABLE IF EXISTS `pedidocotizacionenca`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `pedidocotizacionenca` (
+  `id_pedido` int(10) NOT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `id_proveedor` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_pedido`),
+  KEY `idArti` (`id_proveedor`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `pedidocotizacionenca`
+--
+
+LOCK TABLES `pedidocotizacionenca` WRITE;
+/*!40000 ALTER TABLE `pedidocotizacionenca` DISABLE KEYS */;
+/*!40000 ALTER TABLE `pedidocotizacionenca` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `cajaybanco`
+--
+
+DROP TABLE IF EXISTS `cajaybanco`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `cajaybanco` (
+  `fecha` datetime DEFAULT NULL,
+  `tipocomprobante` varchar(50) DEFAULT NULL,
+  `id_movimiento` int(10) NOT NULL,
+  `saldo` int(10) DEFAULT NULL,
+  `monto` int(10) DEFAULT NULL,
+  `descripcion` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id_movimiento`),
+  KEY `id_movimiento` (`id_movimiento`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `cajaybanco`
+--
+
+LOCK TABLES `cajaybanco` WRITE;
+/*!40000 ALTER TABLE `cajaybanco` DISABLE KEYS */;
+/*!40000 ALTER TABLE `cajaybanco` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `grupos`
+--
+
+DROP TABLE IF EXISTS `grupos`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `grupos` (
+  `id_grupo` int(10) NOT NULL,
+  `descripcion` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id_grupo`),
+  KEY `id_usuario` (`id_grupo`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `grupos`
+--
+
+LOCK TABLES `grupos` WRITE;
+/*!40000 ALTER TABLE `grupos` DISABLE KEYS */;
+/*!40000 ALTER TABLE `grupos` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `cobros`
+--
+
+DROP TABLE IF EXISTS `cobros`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `cobros` (
+  `id_factura` int(10) NOT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `importe` int(10) DEFAULT NULL,
+  `formadepago` varchar(50) DEFAULT NULL,
+  `numerocheque` varchar(50) DEFAULT NULL,
+  `id_banco` int(10) DEFAULT NULL,
+  `fechacheque` datetime DEFAULT NULL,
+  `id_notacredito` int(10) DEFAULT NULL,
+  `id_usuario` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_factura`),
+  KEY `id_banco` (`id_banco`),
+  KEY `id_factura` (`id_factura`),
+  KEY `id_notacredito` (`id_notacredito`),
+  KEY `id_usuario` (`id_usuario`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `cobros`
+--
+
+LOCK TABLES `cobros` WRITE;
+/*!40000 ALTER TABLE `cobros` DISABLE KEYS */;
+/*!40000 ALTER TABLE `cobros` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `facturaventa`
+--
+
+DROP TABLE IF EXISTS `facturaventa`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `facturaventa` (
+  `id_factura` int(10) NOT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `id_cliente` int(10) DEFAULT NULL,
+  `monto` int(10) DEFAULT NULL,
+  `iva` varchar(50) DEFAULT NULL,
+  `id_pedido` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_factura`),
+  KEY `id_cliente` (`id_cliente`),
+  KEY `id_factura` (`id_factura`),
+  KEY `id_pedido` (`id_pedido`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `facturaventa`
+--
+
+LOCK TABLES `facturaventa` WRITE;
+/*!40000 ALTER TABLE `facturaventa` DISABLE KEYS */;
+INSERT INTO `facturaventa` VALUES (1,NULL,1,100,'21',1),(2,NULL,2,200,'42',2),(3,NULL,1,100,'21',3);
+/*!40000 ALTER TABLE `facturaventa` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `notadebitoexterna`
+--
+
+DROP TABLE IF EXISTS `notadebitoexterna`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `notadebitoexterna` (
+  `id_notadebito` int(10) NOT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `monto` int(10) DEFAULT NULL,
+  `id_usuario` int(10) DEFAULT NULL,
+  `comentario` varchar(50) DEFAULT NULL,
+  `numeronotadebito` int(10) DEFAULT NULL,
+  `id_proveedor` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_notadebito`),
+  KEY `id_notadebito` (`id_notadebito`),
+  KEY `id_proveedor` (`id_proveedor`),
+  KEY `id_usuario` (`id_usuario`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `notadebitoexterna`
+--
+
+LOCK TABLES `notadebitoexterna` WRITE;
+/*!40000 ALTER TABLE `notadebitoexterna` DISABLE KEYS */;
+/*!40000 ALTER TABLE `notadebitoexterna` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `solicitudespedidositem`
+--
+
+DROP TABLE IF EXISTS `solicitudespedidositem`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `solicitudespedidositem` (
+  `id_solicitud` int(10) NOT NULL,
+  `id_arti` int(10) DEFAULT NULL,
+  `cantidadpedido` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_solicitud`),
+  KEY `idArti` (`cantidadpedido`),
+  KEY `SolicitudesPedidosItemid_arti` (`id_arti`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `solicitudespedidositem`
+--
+
+LOCK TABLES `solicitudespedidositem` WRITE;
+/*!40000 ALTER TABLE `solicitudespedidositem` DISABLE KEYS */;
+/*!40000 ALTER TABLE `solicitudespedidositem` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `proveedores`
+--
+
+DROP TABLE IF EXISTS `proveedores`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `proveedores` (
+  `id_proveedor` int(10) NOT NULL,
+  `razonsocial` varchar(50) DEFAULT NULL,
+  `direccion` varchar(50) DEFAULT NULL,
+  `telefono` varchar(50) DEFAULT NULL,
+  `cuit` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id_proveedor`),
+  KEY `id_proveedor` (`id_proveedor`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `proveedores`
+--
+
+LOCK TABLES `proveedores` WRITE;
+/*!40000 ALTER TABLE `proveedores` DISABLE KEYS */;
+INSERT INTO `proveedores` VALUES (3,'Adrian S.A','DelRey 108','456-56456','3-32432432-5'),(4,'David S.A','Uramito 87','654-1233','6-24543534-7'),(5,'Pablo S.A','Alemania  221','454-5655','3-245435345-3'),(6,'Diego S.A','Espino 83','658-4545','2-34489679-4'),(7,'Valentín S.A','Espino 83','333-34565','4-87654666-5'),(8,'Víctor S.A','Estación 133','434-2344','3-65464564-5'),(10,'Jorge S.A','España 164','653-3633','3-32452543-4'),(11,'Sergio S.A','Cucumero 108','214-4445','3-34234234-5'),(12,'Manuel S.A','Extrema120','235-3465','9-36356456-3'),(13,'Pablo S.A','Alemania  221','454-5655','3-245435345-3'),(14,'Gustavo','Acasuso 45','345-345633','3-2345678-3');
+/*!40000 ALTER TABLE `proveedores` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `notapedidoenca`
+--
+
+DROP TABLE IF EXISTS `notapedidoenca`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `notapedidoenca` (
+  `id_pedido` int(10) NOT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `id_cliente` int(10) DEFAULT NULL,
+  `formadepago` varchar(50) DEFAULT NULL,
+  `estado` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id_pedido`),
+  KEY `id_cliente` (`id_cliente`),
+  KEY `id_pedido` (`id_pedido`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `notapedidoenca`
+--
+
+LOCK TABLES `notapedidoenca` WRITE;
+/*!40000 ALTER TABLE `notapedidoenca` DISABLE KEYS */;
+INSERT INTO `notapedidoenca` VALUES (1,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(2,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(3,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(4,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(5,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(6,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(7,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(8,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(9,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(10,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(11,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(12,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(13,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(14,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(15,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(16,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(17,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(18,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(19,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(20,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(21,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(22,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(23,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(24,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(25,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(26,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(27,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(28,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(29,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(30,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(31,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(32,'2012-12-07 00:00:00',1,'CHEQUE','INACTIVO'),(33,'2012-12-07 00:00:00',2,'EFECTIVO','INACTIVO'),(34,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(35,'2012-12-07 00:00:00',1,'CHEQUE','INACTIVO'),(36,'2012-12-07 00:00:00',1,'CHEQUE','INACTIVO'),(37,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(38,'2012-12-07 00:00:00',2,'EFECTIVO','INACTIVO'),(39,'2012-12-07 00:00:00',2,'EFECTIVO','INACTIVO'),(40,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(41,'2012-12-07 00:00:00',2,'EFECTIVO','INACTIVO'),(42,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(43,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(44,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(45,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(46,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(47,'2012-12-07 00:00:00',2,'EFECTIVO','INACTIVO'),(48,'2012-12-07 00:00:00',2,'EFECTIVO','INACTIVO'),(49,'2012-12-07 00:00:00',2,'EFECTIVO','INACTIVO'),(50,'2012-12-07 00:00:00',2,'EFECTIVO','INACTIVO'),(51,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(52,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(53,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(54,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(55,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(56,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(57,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(58,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(59,'2012-12-07 00:00:00',3,'EFECTIVO','INACTIVO'),(60,'2012-12-07 00:00:00',3,'EFECTIVO','INACTIVO'),(61,'2012-12-07 00:00:00',3,'EFECTIVO','INACTIVO'),(62,'2012-12-07 00:00:00',3,'EFECTIVO','INACTIVO'),(63,'2012-12-07 00:00:00',3,'EFECTIVO','INACTIVO'),(64,'2012-12-07 00:00:00',2,'EFECTIVO','INACTIVO'),(65,'2012-12-07 00:00:00',2,'EFECTIVO','INACTIVO'),(66,'2012-12-07 00:00:00',2,'EFECTIVO','INACTIVO'),(67,'2012-12-07 00:00:00',2,'EFECTIVO','INACTIVO'),(68,'2012-12-07 00:00:00',2,'EFECTIVO','INACTIVO'),(69,'2012-12-07 00:00:00',2,'EFECTIVO','INACTIVO'),(70,'2012-12-07 00:00:00',2,'EFECTIVO','INACTIVO'),(71,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(72,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(73,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(74,'2012-12-07 00:00:00',1,'EFECTIVO','INACTIVO'),(75,'2012-12-18 00:00:00',1,'EFECTIVO','INACTIVO'),(76,'2012-12-18 00:00:00',1,'EFECTIVO','INACTIVO'),(77,'2012-12-18 00:00:00',1,'EFECTIVO','INACTIVO'),(78,'2012-12-18 00:00:00',1,'CHEQUE','INACTIVO'),(79,'2012-12-19 00:00:00',1,'EFECTIVO','INACTIVO'),(80,'2012-12-19 00:00:00',1,'EFECTIVO','INACTIVO'),(81,'2012-12-19 00:00:00',4,'CHEQUE','INACTIVO'),(82,'2012-12-19 00:00:00',4,'EFECTIVO','INACTIVO'),(83,'2012-12-19 00:00:00',4,'EFECTIVO','INACTIVO');
+/*!40000 ALTER TABLE `notapedidoenca` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `pedidocotizacionitem`
+--
+
+DROP TABLE IF EXISTS `pedidocotizacionitem`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `pedidocotizacionitem` (
+  `id_pedido` int(10) NOT NULL,
+  `id_arti` int(10) NOT NULL,
+  `cantidadpedido` int(10) DEFAULT NULL,
+  `preciounitario` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id_pedido`,`id_arti`),
+  KEY `idArti` (`cantidadpedido`),
+  KEY `PedidoCotizacionItemid_arti` (`id_arti`),
+  KEY `PedidoCotizacionItemid_pedido` (`id_pedido`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `pedidocotizacionitem`
+--
+
+LOCK TABLES `pedidocotizacionitem` WRITE;
+/*!40000 ALTER TABLE `pedidocotizacionitem` DISABLE KEYS */;
+/*!40000 ALTER TABLE `pedidocotizacionitem` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `facturaproveedor`
+--
+
+DROP TABLE IF EXISTS `facturaproveedor`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `facturaproveedor` (
+  `id_factura` int(10) NOT NULL,
+  `numerofactura` int(10) DEFAULT NULL,
+  `id_proveedor` int(10) DEFAULT NULL,
+  `importe` int(10) DEFAULT NULL,
+  `iva` varchar(50) DEFAULT NULL,
+  `estado` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id_factura`),
+  KEY `id_factura` (`id_factura`),
+  KEY `id_proveedor` (`id_proveedor`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `facturaproveedor`
+--
+
+LOCK TABLES `facturaproveedor` WRITE;
+/*!40000 ALTER TABLE `facturaproveedor` DISABLE KEYS */;
+/*!40000 ALTER TABLE `facturaproveedor` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `notacreditoexterna`
+--
+
+DROP TABLE IF EXISTS `notacreditoexterna`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `notacreditoexterna` (
+  `id_notacredito` int(10) NOT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `monto` int(10) DEFAULT NULL,
+  `id_usuario` int(10) DEFAULT NULL,
+  `comentario` varchar(50) DEFAULT NULL,
+  `numeronotacredito` int(10) DEFAULT NULL,
+  `id_proveedor` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_notacredito`),
+  KEY `id_notadebito` (`id_notacredito`),
+  KEY `id_proveedor` (`id_proveedor`),
+  KEY `id_usuario` (`id_usuario`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `notacreditoexterna`
+--
+
+LOCK TABLES `notacreditoexterna` WRITE;
+/*!40000 ALTER TABLE `notacreditoexterna` DISABLE KEYS */;
+/*!40000 ALTER TABLE `notacreditoexterna` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `ordenescompraenca`
+--
+
+DROP TABLE IF EXISTS `ordenescompraenca`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ordenescompraenca` (
+  `id_orden` int(10) NOT NULL,
+  `id_cotizacion` int(10) DEFAULT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `id_proveedor` int(10) DEFAULT NULL,
+  `condiciondepago` varchar(50) DEFAULT NULL,
+  `iva` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_orden`),
+  KEY `id_proveedores` (`id_proveedor`),
+  KEY `idArti` (`fecha`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `ordenescompraenca`
+--
+
+LOCK TABLES `ordenescompraenca` WRITE;
+/*!40000 ALTER TABLE `ordenescompraenca` DISABLE KEYS */;
+/*!40000 ALTER TABLE `ordenescompraenca` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `usuarios`
+--
+
+DROP TABLE IF EXISTS `usuarios`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `usuarios` (
+  `id_usuario` int(10) NOT NULL,
+  `nombre` varchar(50) DEFAULT NULL,
+  `id_grupo` int(10) DEFAULT NULL,
+  `tipo` varchar(50) DEFAULT NULL,
+  `clave` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id_usuario`),
+  KEY `clave` (`clave`),
+  KEY `id_grupo` (`id_grupo`),
+  KEY `id_usuario` (`id_usuario`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `usuarios`
+--
+
+LOCK TABLES `usuarios` WRITE;
+/*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
+INSERT INTO `usuarios` VALUES (1,'a',1,'a','a');
+/*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `subdiarioventas`
+--
+
+DROP TABLE IF EXISTS `subdiarioventas`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `subdiarioventas` (
+  `id_factura` int(10) NOT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `id_asiento` int(10) DEFAULT NULL,
+  `descripcion` varchar(50) DEFAULT NULL,
+  `iva` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_factura`),
+  KEY `id_asiento` (`id_asiento`),
+  KEY `Id_compra` (`id_factura`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `subdiarioventas`
+--
+
+LOCK TABLES `subdiarioventas` WRITE;
+/*!40000 ALTER TABLE `subdiarioventas` DISABLE KEYS */;
+/*!40000 ALTER TABLE `subdiarioventas` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `ordenescompraitem`
+--
+
+DROP TABLE IF EXISTS `ordenescompraitem`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ordenescompraitem` (
+  `id_orden` int(10) NOT NULL,
+  `id_arti` int(10) NOT NULL,
+  `cantidadpedido` int(10) DEFAULT NULL,
+  `preciounitario` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_orden`,`id_arti`),
+  KEY `id_proveedores` (`preciounitario`),
+  KEY `idArti` (`cantidadpedido`),
+  KEY `OrdenesCompraItemid_arti` (`id_arti`),
+  KEY `OrdenesCompraItemid_orden` (`id_orden`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `ordenescompraitem`
+--
+
+LOCK TABLES `ordenescompraitem` WRITE;
+/*!40000 ALTER TABLE `ordenescompraitem` DISABLE KEYS */;
+/*!40000 ALTER TABLE `ordenescompraitem` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `recibooficialcliente`
+--
+
+DROP TABLE IF EXISTS `recibooficialcliente`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `recibooficialcliente` (
+  `id_recibo` int(10) NOT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `id_cliente` int(10) DEFAULT NULL,
+  `id_factura` int(10) DEFAULT NULL,
+  `importe` int(10) DEFAULT NULL,
+  `formadepago` varchar(50) DEFAULT NULL,
+  `numerocheque` int(10) DEFAULT NULL,
+  `id_banco` int(10) DEFAULT NULL,
+  `id_notacredito` int(10) DEFAULT NULL,
+  `fechacheque` datetime DEFAULT NULL,
+  `id_usuario` int(10) DEFAULT NULL,
+  `comentario` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id_recibo`),
+  KEY `id_banco` (`id_banco`),
+  KEY `id_factura` (`id_factura`),
+  KEY `id_notacredito` (`id_notacredito`),
+  KEY `id_proveedor` (`id_cliente`),
+  KEY `id_recibo` (`id_recibo`),
+  KEY `id_usuario` (`id_usuario`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `recibooficialcliente`
+--
+
+LOCK TABLES `recibooficialcliente` WRITE;
+/*!40000 ALTER TABLE `recibooficialcliente` DISABLE KEYS */;
+/*!40000 ALTER TABLE `recibooficialcliente` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `articulos`
+--
+
+DROP TABLE IF EXISTS `articulos`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `articulos` (
+  `id_arti` int(10) NOT NULL,
+  `descripcion` varchar(50) DEFAULT NULL,
+  `precio` int(10) DEFAULT NULL,
+  `stock` int(10) DEFAULT NULL,
+  `reservado` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_arti`),
+  KEY `id_arti` (`id_arti`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `articulos`
+--
+
+LOCK TABLES `articulos` WRITE;
+/*!40000 ALTER TABLE `articulos` DISABLE KEYS */;
+INSERT INTO `articulos` VALUES (1,'Zapatillas',250,100,5),(2,'Zapatos',304,500,24),(3,'Zandalia',100,800,239),(4,'Chinela',80,900,27),(5,'Bota',380,500,23),(6,'Botines',500,400,28),(7,'Tennis',325,600,3),(8,'Griegas',190,540,4),(9,'pantufla',98,0,0);
+/*!40000 ALTER TABLE `articulos` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `devoluciones`
+--
+
+DROP TABLE IF EXISTS `devoluciones`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `devoluciones` (
+  `id_devolucion` int(10) NOT NULL,
+  `id_informerecepcion` int(10) DEFAULT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `id_proveedor` int(10) DEFAULT NULL,
+  `id_articulo` int(10) DEFAULT NULL,
+  `causadevolucion` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id_devolucion`),
+  KEY `id_articulo` (`id_articulo`),
+  KEY `id_control` (`id_informerecepcion`),
+  KEY `Id_devolucion` (`id_devolucion`),
+  KEY `id_proveedor` (`id_proveedor`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `devoluciones`
+--
+
+LOCK TABLES `devoluciones` WRITE;
+/*!40000 ALTER TABLE `devoluciones` DISABLE KEYS */;
+/*!40000 ALTER TABLE `devoluciones` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `pagos`
+--
+
+DROP TABLE IF EXISTS `pagos`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `pagos` (
+  `id_pago` int(10) NOT NULL,
+  `id_ordenpago` int(10) DEFAULT NULL,
+  `id_proveedor` int(10) DEFAULT NULL,
+  `numerocheque` varchar(50) DEFAULT NULL,
+  `importe` int(10) DEFAULT NULL,
+  `formadepago` varchar(50) DEFAULT NULL,
+  `cuentacorriente` varchar(50) DEFAULT NULL,
+  `id_notacredito` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_pago`),
+  KEY `id_notacredito` (`id_notacredito`),
+  KEY `id_ordenpago` (`id_ordenpago`),
+  KEY `id_pago` (`id_pago`),
+  KEY `id_proveedor` (`id_proveedor`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `pagos`
+--
+
+LOCK TABLES `pagos` WRITE;
+/*!40000 ALTER TABLE `pagos` DISABLE KEYS */;
+/*!40000 ALTER TABLE `pagos` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `ctactecliente`
+--
+
+DROP TABLE IF EXISTS `ctactecliente`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ctactecliente` (
+  `id_documento` int(10) DEFAULT NULL,
+  `id_tipo` int(10) DEFAULT NULL,
+  `id_cliente` int(10) DEFAULT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `id_movimiento` int(10) NOT NULL,
+  `monto` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id_movimiento`),
+  KEY `id_documento` (`id_documento`),
+  KEY `id_movimiento` (`id_movimiento`),
+  KEY `id_proveedor` (`id_cliente`),
+  KEY `id_tipo` (`id_tipo`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `ctactecliente`
+--
+
+LOCK TABLES `ctactecliente` WRITE;
+/*!40000 ALTER TABLE `ctactecliente` DISABLE KEYS */;
+/*!40000 ALTER TABLE `ctactecliente` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `bancos`
+--
+
+DROP TABLE IF EXISTS `bancos`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `bancos` (
+  `id_banco` int(10) NOT NULL,
+  `descripcion` varchar(50) DEFAULT NULL,
+  `contacto` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id_banco`),
+  KEY `id_arti` (`id_banco`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `bancos`
+--
+
+LOCK TABLES `bancos` WRITE;
+/*!40000 ALTER TABLE `bancos` DISABLE KEYS */;
+/*!40000 ALTER TABLE `bancos` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2012-12-19 20:13:52
+CREATE DATABASE  IF NOT EXISTS `mydb` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `mydb`;
+-- MySQL dump 10.13  Distrib 5.5.16, for Win32 (x86)
+--
+-- Host: localhost    Database: mydb
+-- ------------------------------------------------------
+-- Server version	5.5.27
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2012-12-19 20:13:54
